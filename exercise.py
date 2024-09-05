@@ -5,4 +5,4 @@ def palindrome(word):
     """
     if not isinstance(word, str):
         return None
-    return bool(list(word) == list(word)[::-1])
+    return bool(word == word[::-1])
